@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talento - Nombre Apellido</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+
+    <style>tr:nth-child(odd) {
+        background-color: #eee;
+    }
+    th{
+        background-color: #ddd;
+    }
+    h1{margin-left:2vw ;}
+    h2{margin-left:5vw ;}
+    </style>
+</head>
+<body>
+    <header><img src="https://www.tsoftglobal.com/wp-content/uploads/2020/08/LOGO-Tsoft-Alpha-FullColor.png" alt="logo tsoft" width="100px"></header>
+    <main>
+        <h1>Nombre persona</h1>
+        <h2>Tabla plan de carrera</h2>
+        <table class="empleados" id="myTable">
+            <tbody></tbody>
+            <tr><th>Item</th><th>Item 1</th> <th>Item 1 Check</th><th>Item 2</th> <th>Item 2 Check</th><th>Item 3</th> <th>Item 3 Check</th></tr>
+            <tr><td>Conocimientos claves minimos</td><td>Conceptos en fundamentos de prueba de software.</td><td><input type="checkbox" name="" id=""></td><td>Lenguajes de programación
+            </td><td><input type="checkbox" name="" id=""></td><td>Conocimiento de base de datos
+            </td><td><input type="checkbox" name="" id=""></td></tr>
+            <td>¿QUÉ HABILIDADES SOCIALES (ADN TSOFT) NECESITA?
+            </td><td>Proactividad</td><td><input type="checkbox" name="" id=""></td><td>Trabajo en equipo
+            </td><td><input type="checkbox" name="" id=""></td><td>Capacidad y disposición al Aprendizaje
+            </td><td><input type="checkbox" name="" id=""></td></tr>
+            
+        </tbody>
+        </table>
+        <h2>Tabla plan de formación - conocimientos tecnicos</h2>
+        <table class="empleados" id="myTable">
+            <tbody>
+            <tr><th>Item</th><th>Item 1</th> <th>Item 1 Check</th><th>Item 2</th> <th>Item 2 Check</th><th>Item 3</th> <th>Item 3 Check</th></tr>
+            <td>Programación Orientada a objetos</td><td>Aprendiz</td><td><input type="checkbox" name="" id=""></td><td>Autonomo
+            </td><td><input type="checkbox" name="" id=""></td><td>Maestro
+            </td><td><input type="checkbox" name="" id=""></td><tr><td>Herramietnas de automatización
+            </td><td>Aprendiz</td><td><input type="checkbox" name="" id=""></td><td>Autonomo
+            </td><td><input type="checkbox" name="" id=""></td><td>Maestro
+            </td><td><input type="checkbox" name="" id=""></td></tr>
+        </tbody>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+<script>
+$(document).ready(function()
+{
+  $("tr:odd").css({
+    "background-color":"#000",
+    "color":"#fff"});
+});
+</script>
+</html>
